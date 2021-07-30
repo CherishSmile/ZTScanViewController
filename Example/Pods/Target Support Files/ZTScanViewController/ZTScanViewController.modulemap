@@ -1,0 +1,6 @@
+framework module ZTScanViewController {
+  umbrella header "ZTScanViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

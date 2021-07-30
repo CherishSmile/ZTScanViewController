@@ -1,0 +1,6 @@
+framework module Pods_ZTScanViewController_Example {
+  umbrella header "Pods-ZTScanViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

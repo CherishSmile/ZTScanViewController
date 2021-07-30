@@ -1,0 +1,16 @@
+PODS:
+  - ZTScanViewController (0.1.0)
+
+DEPENDENCIES:
+  - ZTScanViewController (from `../`)
+
+EXTERNAL SOURCES:
+  ZTScanViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTScanViewController: a0634858e56edaafd77b7db2942c4f4a15abc971
+
+PODFILE CHECKSUM: db7f1ab8e0f5929d5b83082e481d7dade7558944
+
+COCOAPODS: 1.10.2

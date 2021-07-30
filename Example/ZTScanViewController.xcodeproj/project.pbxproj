@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946A5D023C31703E0E57A31D /* Pods_ZTScanViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTScanViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DF59F1B2B912C28414ABC1A /* ZTScanViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTScanViewController.podspec; path = ../ZTScanViewController.podspec; sourceTree = "<group>"; };
+		9DF59F1B2B912C28414ABC1A /* ZTScanViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTScanViewController.podspec; path = ../ZTScanViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A753D42D05F80EE6BB7E4D83 /* Pods-ZTScanViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTScanViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTScanViewController_Example/Pods-ZTScanViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DFE5C258C7E70290EFCA84EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F2F7286425EAA05E40B23458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFE5C258C7E70290EFCA84EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2F7286425EAA05E40B23458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				43A1714170348686D21A1AB6 /* Pods-ZTScanViewController_Tests.debug.xcconfig */,
 				10E77580E9F934FF955E7FA2 /* Pods-ZTScanViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTScanViewController/ZTScanViewController-Prefix.pch";
 				INFOPLIST_FILE = "ZTScanViewController/ZTScanViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTScanViewController/ZTScanViewController-Prefix.pch";
 				INFOPLIST_FILE = "ZTScanViewController/ZTScanViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
