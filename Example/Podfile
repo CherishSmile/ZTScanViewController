@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZTScanViewController_Example' do
+  pod 'ZTScanViewController', :path => '../'
+
+  target 'ZTScanViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
