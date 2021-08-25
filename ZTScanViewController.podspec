@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTScanViewController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of ZTScanViewController.'
 
   s.homepage         = 'https://github.com/CherishSmile/ZTScanViewController'
@@ -18,11 +18,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.1'
   s.requires_arc = true
   s.pod_target_xcconfig = {
-     'VALID_ARCHS' => 'x86_64 arm64'
+     'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
    
   s.source_files = 'ZTScanViewController/ZTScanViewController.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTScanViewController/ZTScanViewController.framework'
-  s.public_header_files = 'ZTScanViewController/ZTScanViewController.framework/Headers/*.{h}'
+  s.resource = 'ZTScanViewController/ZTScanViewController.bundle'
+
    
 end

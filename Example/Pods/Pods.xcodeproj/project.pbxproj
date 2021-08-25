@@ -16,6 +16,7 @@
 		A8F99B07A8B03DC232B27C35011FAD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B37B19780E9D04C5FABC4CA80067DE9B /* ZTScanViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0165A417B4A5FE567BD996CB88AFC5B /* ZTScanViewController-dummy.m */; };
 		D0311F3ABB231703E9149FF194A67CF9 /* Pods-ZTScanViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6EB2683AB59A337EC114C2B7CA9EC3 /* Pods-ZTScanViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12A9A5526D5D1A600BE97AD /* ZTScanViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A5426D5D1A600BE97AD /* ZTScanViewController.bundle */; };
 		E1C8B59926B3EF87009A6CD0 /* ZTScanViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C8B59826B3EF87009A6CD0 /* ZTScanViewController.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		CBA45C4B69428A1021AB76224AAB1959 /* Pods-ZTScanViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTScanViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0ECE36C86D8E816D78DBCA25454E151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DC8ED06438D3D18686F27C3077B56143 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E12A9A5426D5D1A600BE97AD /* ZTScanViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZTScanViewController.bundle; path = ZTScanViewController/ZTScanViewController.bundle; sourceTree = "<group>"; };
 		E1C8B59826B3EF87009A6CD0 /* ZTScanViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZTScanViewController.framework; path = ZTScanViewController/ZTScanViewController.framework; sourceTree = "<group>"; };
 		F0165A417B4A5FE567BD996CB88AFC5B /* ZTScanViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTScanViewController-dummy.m"; sourceTree = "<group>"; };
 		F4AF2E72030B51707145BB0006EFB0BE /* Pods-ZTScanViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTScanViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		AA25CE2B16A5B461F37890CD7881CDFC /* ZTScanViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E12A9A5426D5D1A600BE97AD /* ZTScanViewController.bundle */,
 				E1C8B59826B3EF87009A6CD0 /* ZTScanViewController.framework */,
 				1EB051E12E98C4B6B11EFE57E96A0180 /* Pod */,
 				4C2D76CEF514EAFC653D18914F41254D /* Support Files */,
@@ -344,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A9A5526D5D1A600BE97AD /* ZTScanViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
